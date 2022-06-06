@@ -126,6 +126,7 @@ function doesWordExist(param1, param2) {
   }
   return includesOrNot;
 }
+doesWordExist(wordsFind);
 
 // Iteration #7: Count repetition
 const wordsCount = [
@@ -148,10 +149,11 @@ function howManyTimes(param1, param2) {
   for (let i = 0; i < param1.length; i++) {
     if (param1[i] === param2) {
       count++;
-    } 
+    }
   }
   return count;
 }
+howManyTimes(wordsCount, 'matter');
 
 // Iteration #8: Bonus
 const matrix = [
